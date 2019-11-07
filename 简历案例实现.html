@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>简历案例实现</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        h2 {
+            text-align:center;
+        }
+        .title {
+            width: 800px;
+            border: 1px solid slategray;
+            align-content: center;
+            margin-left: 300px;
+        }
+        .content {
+            display: inline-block;
+            width: 200px;
+            margin-left: 10px;
+            font-family: "微软雅黑";
+            font-size: 20px;
+            font-weight: 500;
+            vertical-align: top;
+        }
+        img {
+            width: 100px;
+            height: 140px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h2>个人简历</h2>
+        <p></p>
+        <div>
+            <h3>基本信息</h3>
+            <div>
+                    &nbsp; &nbsp; &nbsp; <span>姓名:小可爱</span>
+                    &nbsp; &nbsp; &nbsp;<span>年龄：99</span>
+                    &nbsp; &nbsp; &nbsp;<span>性别：女</span>
+            </div>
+            <div>
+                    &nbsp; &nbsp; &nbsp;<span>学历:小学</span>
+                    &nbsp; &nbsp; &nbsp;<span>电话：123456</span>
+                    &nbsp; &nbsp; &nbsp; <span>邮箱:234576</span>
+            </div>
+             <!-- <div class="content">姓名:小可爱</div>
+             <div class="content">年龄：99</div>
+             <div class="content">性别：女</div>
+             <div class="content">学历:小学</div>
+             <div class="content">电话：123456</div>
+             <div class="content">邮箱:234576</div>
+             <div> 求职意向： Java开发工程师</div> -->
+             <!-- <img src="images/001.jpg"/> -->
+             <hr/>
+             <div>
+                 <h3>专业技能</h3>
+                 <ol>
+                     <li>
+                        熟练的使用Java语言进行面向对象程序设计，有良好的编程习惯，熟悉常用的Java API，包括集合框架、多线程（并发编程）、I/O（NIO）、Socket、JDBC、XML、反射等。                        
+                     </li>
+                     <li>
+                        熟悉基于JSP和Servlet的Java Web开发，对Servlet和JSP的工作原理和生命周期有深入了解，熟练的使用JSTL和EL编写无脚本动态页面，有使用监听器、过滤器等Web组件以及MVC架构模式进行Java Web项目开发的经验。                        
+                     </li>
+                     <Li>
+                        对Spring的IoC容器和AOP原理有深入了解，熟练的运用Spring框架管理各种Web组件及其依赖关系，熟练的使用Spring进行事务、日志、安全性等的管理，有使用Spring MVC作为表示层技术以及使用Spring提供的持久化支持进行Web项目开发的经验，熟悉Spring对其他框架的整合。                        
+                     </Li>
+                     <li>
+                            熟练的使用Hibernate、MyBatis等ORM框架，熟悉Hibernate和MyBatis的核心API，对Hibernate的关联映射、继承映射、组件映射、缓存机制、事务管理以及性能调优等有深入的理解。                        
+                     </li>
+                     <li>
+                            熟练的使用HTML、CSS和JavaScript进行Web前端开发，熟悉jQuery和Bootstrap，对Ajax技术在Web项目中的应用有深入理解，有使用前端MVC框架（AngularJS）和JavaScript模板引擎（HandleBars）进行项目开发的经验。                        
+                     </li>
+                     <li>
+                            熟悉常用的关系型数据库产品（MySQL、Oracle），熟练的使用SQL和PL/SQL进行数据库编程。
+                     </li>
+                     <li>
+                        熟悉面向对象的设计原则，对GoF设计模式和企业应用架构模式有深入的了解和实际开发的相关经验，熟练的使用UML进行面向对象的分析和设计，有TDD（测试驱动开发）和DDD（领域驱动设计）的经验。                            
+                     </li>
+                     <li>
+                            熟悉Apache、NginX、Tomcat、WildFly、Weblogic等Web服务器和应用服务器的使用，熟悉多种服务器整合、集群和负载均衡的配置。                        
+                     </li>
+                     <li>
+                        熟练的使用产品原型工具Axure，熟练的使用设计建模工具PowerDesigner和Enterprise Architect，熟练的使用Java开发环境Eclipse和IntelliJ，熟练的使用前端开发环境WebStorm，熟练的使用软件版本控制工具SVN和Git，熟练的使用项目构建和管理工具Maven和Gradle。
+                     </li>
+                 </ol>
+             </div>
+             <div>
+                 <h3>项目经验</h3>
+                 <h4>项目介绍</h4>
+                 <p>
+                        本系统是X委托Y开发的用于Z的系统，系统包括A、B、C、D等模块。系统使用了Java企业级开发的开源框架E以及前端技术F。表示层运用了G架构，使用H作为视图I作为控制器并实现了REST风格的请求；业务逻辑层运用了J模式，并通过K实现事务、日志和安全性等功能，通过L实现缓存服务；持久层使用了M封装CRUD操作，底层使用N实现数据存取。整个项目采用了P开发模型。
+                 </p>
+                 <h4>项目开发流程</h4>
+                 <div>
+                     <ol>
+                         <li>行性分析 >>> 可行性分析报告 / 项目开发计划书</li>
+                         <li>需求分析 >>> 需求规格说明书 
+                            <ul>
+                                <li>OOAD（用例图、时序图、活动图）</li>
+                                <li>界面原型：帮助理解需求、业务层设计时推导事务脚本</li>
+                            </ul>
+                         </li>
+                        <li>设计 >>> 概要设计说明书/详细设计说明书 
+                            <ul>
+                                <li>抽取业务实体（领域对象）：类图、E-R图（概念设计阶段）</li>
+                                <li>分层架构：确定各层的技术实现方案（具体到使用的框架、数据库服务器、应用服务器等）。业务层设计：事务脚本模式（事务：用户发送一次请求就是一个事务；脚本：一个方法或一个函数；事务脚本：把一次请求封装为一个方法或一个函数；事务脚本模式：一个事务开始于脚本的打开，终止于脚本的关闭）。业务层涉及的对象有三种类型：事务脚本类（封装了业务的流程）、数据访问对象（DAO，封装了持久化操作）、数据传输对象（DTO，封装了失血/贫血领域对象），三者之间的关系是事务脚本类组合（聚合）数据访问对象，这二者都依赖了数据传输对象
+                                        正向工程（UML类图生成Java代码）和逆向工程（Java代码生成UML类图）
+                                </li>
+                                <li>数据库物理设计（ER图转换成表间关系图、建库和建表、使用工具插入测试数据）</li>
+                            </ul>
+                        </li>
+                        <li>编码</li>
+                        <li>测试 >>> 测试报告 / 缺陷报告 
+                            <ul style="list-style-type:square">
+                                <li>单元测试：对软件中的最小可测试单元进行检查和验证，在Java中是对类中的方法进行测试，可以使用JUnit工具来实施。</li>
+                                <li>集成测试：集成测试也叫组装测试或联合测试。在单元测试的基础上，将所有模块按照设计要求组装成为子系统进行测试</li>
+                                <li>系统测试：将已经确认的软件、硬件、外设、网络等元素结合在一起，进行信息系统的各种组装测试和确认测试，系统测试是针对整个产品系统进行的测试，目的是验证系统是否满足了需求规格的定义，找出与需求规格不符或与之矛盾的地方，从而提出更加完善的方案。</li>
+                                <li>验收测试：在软件产品完成了单元测试、集成测试和系统测试之后，产品发布之前所进行的软件测试活动。它是技术测试的最后一个阶段，也称为交付测试。验收测试的目的是确保软件准备就绪，并且可以让最终用户将其用于执行软件的既定功能和任务。</li>
+                            </ul>
+                        </li>
+                        <li>交付和维护 >>> 用户手册 / 操作手册</li>
+                     </ol>
+                 </div>
+                 <h3>项目管理</h3>
+                 <ul>
+                     <li>版本控制：CVS/SVN/Git</li>
+                     <li>自动构建：Ant/Maven/Ivy/Gradle</li>
+                     <li>持续集成：Hudson/Jenkins</li>
+                 </ul>
+                 <h3>系统架构</h3>
+                 <ul>
+                     <li>负载均衡服务器：F5、A10</li>
+                     <li>应用服务器：</li>
+                     <li>HTTP服务器：Apache、NginX（HTTP、反向代理、邮件代理服务器）</li>
+                     <li>Servlet容器：Tomcat、Resin</li>
+                     <li>EJB容器：WildFly（JBoss Application Server）、GlassFish、Weblogic、Websphere</li>
+                     <li>数据库服务器：MySQL、Oracle</li>
+                 </ul>
+                 <h3>第三方工具（插件）应用</h3>
+                 <ul>
+                     <li>图表工具：基于jQuery的图表插件（如jQchart、Flot、Charted等）、Chart.js、Highcharts等。</li>
+                     <li>报表工具：Pentaho Reporting、iReport、DynamicReports等。</li>
+                     <li>文档处理：POI、iText等。</li>
+                     <li>工作流引擎：jBPM、OpenWFE、Snaker、SWAMP等</li>
+                     <li>作业调度：Quartz、JobServer、Oddjob等。</li>
+                     <li>缓存服务：EhCache、memcached、SwarmCache等。</li>
+                     <li>消息队列：Open-MQ、ZeroMQ等。</li>
+                     <li>安全框架：Shiro、PicketBox等。</li>
+                     <li>搜索引擎：IndexTank、Lucene、ElasticSearch等。</li>
+                     <li>Ajax框架：jQuery、ExtJS、DWR等</li>
+                     <li>UI插件：EasyUI、MiniUI等。</li>
+                     <li>富文本框：UEditor、CKEditor等。</li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
