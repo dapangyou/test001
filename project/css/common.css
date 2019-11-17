@@ -1,0 +1,65 @@
+/*公共样式*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+/* 顶部快捷导航栏 */
+.shortcut {
+	height: 31px;
+	background-color: #f1f1f1;
+	line-height: 31px;
+}
+
+.shortcut li {
+	float: left;
+}
+
+/* 超链接字体的颜色 */
+.style-red {
+	color: #c81623;
+}
+
+/* 右侧导航栏小竖线 */
+.spacer {
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 12px 0;
+}
+
+/* 图片字体 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?5oyl41');
+    src: url('../fonts/icomoon.eot?5oyl41#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?5oyl41') format('truetype'), url('../fonts/icomoon.woff?5oyl41') format('woff'), url('../fonts/icomoon.svg?5oyl41#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icomoon {
+	font-family: 'icomoon';
+	font-size: 16px;
+	line-height: 26px;
+}
+/* header区域 */
+.header {
+	position: relative;
+	height: 105px;
+	background-color: pink;
+}
+
+.logo {
+	position: absolute;
+	top: 25px;
+    left: 0;
+	width: 175px;
+	height: 56px;
+	background-color: purple;
+}
